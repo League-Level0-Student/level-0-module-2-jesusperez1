@@ -9,56 +9,55 @@ import javax.swing.JOptionPane;
 
 public class Validation {
 	public static void main(String[] args) {
-		
-		Random randomMaker = new Random();
-		
-		int randomNumber = randomMaker.nextInt(5);
-		
-		System.out.println(randomNumber);
 
 		// 1. Use each value of randomNumber to give the user a random compliment.
-		for(int = 0;0<10;0++);
-		
-		
-		
-		
-		if (randomNumber == 1) {
-			
-			
-			
-			
-		} else if ( randomNumber == 2) {
-			
-						
-		}else if (randomNumber ==3) {
-			
-			
-		} else if (randomNumber ==4) {
-			
-			
-		} else if (randomNumber ==5) {
-			
-			
-		} else if (randomNumber==6) {
-			
-			
-		} else if (randomNumber ==7) {
-			
-			
-		} else if (randomNumber == 8) {
-			
-			
-		} else if (randomNumber==9) {
-			
-			
-		} else if (randomNumber==10) {
-			
-			
+
+		for (int i = 0; i < 10; i++) {
+			Random randomMaker = new Random();
+
+			int randomNumber = randomMaker.nextInt(5);
+
+			System.out.println(randomNumber);
+			if (randomNumber == 1) {
+
+				JOptionPane.showMessageDialog(null, "You are awsome.");
+
+			} else if (randomNumber == 2) {
+
+				JOptionPane.showMessageDialog(null, "You are the best.");
+
+			} else if (randomNumber == 3) {
+
+				JOptionPane.showMessageDialog(null, "You are a joy to be around.");
+
+			} else if (randomNumber == 4) {
+
+				JOptionPane.showMessageDialog(null, "People are lucky to have you.");
+
+			} else if (randomNumber == 5) {
+
+				JOptionPane.showMessageDialog(null, "You make people happy");
+
+			} else if (randomNumber == 6) {
+				JOptionPane.showMessageDialog(null, "Hit me with that YEET.");
+
+			} else if (randomNumber == 7) {
+
+				JOptionPane.showMessageDialog(null, "Be in it to win it.");
+			} else if (randomNumber == 8) {
+
+				JOptionPane.showMessageDialog(null, "Go BIG, don't go home.");
+			} else if (randomNumber == 9) {
+
+				JOptionPane.showMessageDialog(null, "You brighten my day.");
+			} else if (randomNumber == 10) {
+
+				JOptionPane.showMessageDialog(null, "You are chill.");
+			}
 		}
 		// 2. Repeat all the code above 10 times
-		
-		
+
 		// 3. Find someone to test out your program. They will like it :)
-		
+
 	}
 }
